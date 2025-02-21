@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { getNetlifyContext } from 'utils';
 
 const contextExplainer = `
@@ -25,12 +24,6 @@ export default function Page() {
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <h1 className="mb-0">Lets make something Grrrrrreat</h1>
                 <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
-                <Link
-                    href="/pages/edit"
-                    className="btn btn-lg btn-primary sm:btn-wide"
-                >
-                    edit
-                </Link>
             </section>
         </main>
     );
